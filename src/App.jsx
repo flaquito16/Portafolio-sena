@@ -15,6 +15,7 @@ function App() {
     <Header>
       <Logo/>
       <NavBar>
+        <p>Johan Sebastian Agudelo Cardenas</p>
       <Items content='Inicio' />
       <Items content='Perfil' />
       <Items content='Proyectos' />
