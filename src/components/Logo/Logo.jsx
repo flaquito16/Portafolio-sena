@@ -1,11 +1,4 @@
 import React from 'react'
+import logo from '../../assets/Logo-sena.png'
 
-const Logo = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
-
-export default Logo
+export const Logo= () => <img className='Logo' src={logo} alt="logo" />

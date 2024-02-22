@@ -1,11 +1,11 @@
 import React from 'react'
+import picture from '../../../assets/perfil.png'
 
-const Picture = () => {
+export const Picture = () => {
   return (
-    <div>
-      
-    </div>
+    <section>
+        <img className='perfil' src={picture} alt="perfil" />
+    </section>
   )
 }
 
-export default Picture
