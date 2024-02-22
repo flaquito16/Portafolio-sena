@@ -3,6 +3,8 @@ import './DescriptionPortafile.css'
 
 export const DescriptionPortafile = () => {
   return (
-    <div>DescriptionPortafile</div>
+    <section className="Description">
+      <p></p>
+    </section>
   )
 }
