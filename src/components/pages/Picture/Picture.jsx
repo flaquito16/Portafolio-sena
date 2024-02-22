@@ -1,5 +1,5 @@
 import React from 'react'
-import picture from '../../../assets/perfil.png'
+import {picture} from '../../../assets/perfil.png'
 
 export const Picture = () => {
   return (
