@@ -1,0 +1,10 @@
+.general{
+    display: flex;
+    width: 100vh;
+    height: 100vh;
+
+}
+.header-1{
+    width: 40%;
+}
+
