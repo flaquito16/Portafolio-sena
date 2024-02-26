@@ -16,10 +16,13 @@ function App() {
     <>
     <section className='general'>
     <section className='header-1'>
-    <Header>
-      <Picture/>
+    <Header >
+      <div className='picture'>
+      <Picture />
+      </div>
       <NavBar>
         <p>Johan Sebastian Agudelo Cardenas</p>
+        <hr />
       <Items content='Inicio' />
       <Items content='Perfil' />
       <Items content='Proyectos' />

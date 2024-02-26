@@ -2,12 +2,6 @@
     display: flex;
 }
 h1{
-    background-color: red;
-
-}
-.title-perfil{
-    background-color: red;
-}
-Logo{
-    width: 10px;
+    display: flex;
+    align-items: flex-end;
 }

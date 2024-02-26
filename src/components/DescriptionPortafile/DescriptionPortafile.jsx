@@ -1,12 +1,13 @@
 import React from 'react'
 import './DescriptionPortafile.css'
-import { Logo } from '../Logo/Logo'
+import { Logo2 } from '../Logo/Logo2'
+Logo2
 
 export const DescriptionPortafile = () => {
   return (
     <>
     <section className="Description">
-      <Logo/>
+      <Logo2 className="logo-1"/>
       <h1 className='title-perfil'>PEFIL</h1>
       </section>
       <hr />
