@@ -6,6 +6,8 @@ import { Items } from './components/Items/Items'
 import { Picture } from './components/pages/Picture/Picture'
 import {Home} from './components/pages/Home/Home'
 import './components/App.css'
+import { Icons } from './components/Icons/Icons'
+
 // import { Project } from './components/pages/Project/Project'
 // import { References } from './components/Pages/References/References'
 
@@ -30,6 +32,7 @@ function App() {
       <Items content='Experiencia' />
       </NavBar>
       <Logo/>
+      <Icons className='icons'/>
 </Header>
 </section>
 <section className='home-1'>

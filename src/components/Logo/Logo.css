@@ -1,10 +1,15 @@
 img{
     width: 200px;
     border-radius: 100%;
+    
 }
-
+.Logo-1{
+    width: 150px;
+    margin: 40px 0px 0px;
+}
 .Logo{
-    width: px;
-   height: 150px;
+    width: 50px;
+   height: 50px;
+   margin: 16px 20px 0px 25px;
    background-color: #c1ff95; 
 }

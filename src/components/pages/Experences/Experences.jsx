@@ -1,12 +1,18 @@
 import React from 'react'
+
 import './Experences.css'
+import { Logo2 } from '../../Logo/Logo2'
 
 export const Experences = () => {
   return (
-    <div>
+    <>
+    <div className='experence'>
+      <Logo2/>
       <h1>Experiencia</h1>
-      <p>hola</p>
     </div>
+    <hr />
+    <p>hola</p>
+    </>
   )
 }
 

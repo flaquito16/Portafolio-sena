@@ -1,0 +1,6 @@
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 80px 0px 0px 0px;
+}
