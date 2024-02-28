@@ -24,7 +24,7 @@ export const Home = () => {
     <Project/>
     <References/>
     <Experences/>
-    <FaWhatsapp/>
+    {/* <FaWhatsapp/> */}
     </Main>
     
     </> 

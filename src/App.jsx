@@ -24,7 +24,7 @@ function App() {
       </div>
       <NavBar>
         <p className='name'>Johan Sebastian Agudelo Cardenas</p>
-        
+        <hr className='hr-1'/>
       <Items content='Inicio' />
       <Items content='Perfil' />
       <Items content='Proyectos' />
