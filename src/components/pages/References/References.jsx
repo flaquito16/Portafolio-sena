@@ -6,10 +6,10 @@ import { Logo2 } from '../../Logo/Logo2'
 export const References = () => {
   return (
     <>
-    <div className='references'>
+    <section className='references'>
     <Logo2/> 
       <h1>Referencias</h1>
-      </div>
+      </section>
       <hr />
       <p>nopmbre</p>
       <p>nombre</p>

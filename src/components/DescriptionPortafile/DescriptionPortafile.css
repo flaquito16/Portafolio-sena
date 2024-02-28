@@ -3,4 +3,14 @@
 }
 h1{
    display: flex;
+   color: black;
+}
+p{
+    color: black;
+    margin: 0px 100px 20px;
+}
+hr{
+    background-color: green;
+    padding: 7px;
+    margin: -26px 80px 0px;
 }

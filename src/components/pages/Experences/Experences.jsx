@@ -6,11 +6,11 @@ import { Logo2 } from '../../Logo/Logo2'
 export const Experences = () => {
   return (
     <>
-    <div className='experence'>
+    <section className='experence'>
       <Logo2/>
       <h1>Experiencia</h1>
-    </div>
-    <hr />
+    </section>
+   <hr />
     <p>hola</p>
     </>
   )

@@ -1,14 +1,16 @@
 .general{
     display: flex;
     width: 100vw;
-    height: 100vh;
-
 }
 .header-1{
     width: 15%;
+    height: 100vh;
 }
 
 .picture > img{
     height: 250px;
 }
-
+.name{
+    color: white;
+    margin: 0px;
+}

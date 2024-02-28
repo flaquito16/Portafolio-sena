@@ -23,8 +23,8 @@ function App() {
       <Picture />
       </div>
       <NavBar>
-        <p>Johan Sebastian Agudelo Cardenas</p>
-        <hr />
+        <p className='name'>Johan Sebastian Agudelo Cardenas</p>
+        
       <Items content='Inicio' />
       <Items content='Perfil' />
       <Items content='Proyectos' />

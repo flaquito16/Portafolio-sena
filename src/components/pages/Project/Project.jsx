@@ -5,10 +5,10 @@ import { Logo2 } from '../../Logo/Logo2'
 export const Project = () => {
   return (
     <>
-    <div className='project'>
+    <section className='project'>
       <Logo2/>
       <h1>Proyectos</h1>
-      </div>
+      </section>
       <hr />
       <p>hola</p>
       <p>hola</p>
