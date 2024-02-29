@@ -1,3 +1,7 @@
 .references{
     display: flex;
 }
+.cards{
+    display: flex;
+    justify-content: space-around;
+}

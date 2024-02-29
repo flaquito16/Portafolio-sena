@@ -2,6 +2,7 @@ import React from 'react'
 import './Project.css'
 import { Logo2 } from '../../Logo/Logo2'
 import { Card } from '../../Card/Card'
+import { content } from '../../Content/Content'
 
 
 export const Project = () => {
@@ -12,8 +13,21 @@ export const Project = () => {
       <h1>Proyectos</h1>
       </section>
       <hr />
-      <Card/>
-    
+      <div className='cardd'>
+      <div className="card-1">
+            {
+              content.map(card=>(
+                <Card
+                  key={card._id}
+                  img={card.img}
+                  title={card.title}
+                  description={card.description}
+                link={card.link}
+                />
+              ))
+            }
+        </div>
+        </div>
     </>
   )
 }

@@ -1,3 +1,23 @@
 .project{
     display: flex;
 }
+.cardd{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.card-1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+ 
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    width: 280px;
+    margin: 10px;
+    background: green;
+    border-radius: 10px;
+}

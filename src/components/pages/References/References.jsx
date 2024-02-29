@@ -2,6 +2,8 @@ import React from 'react'
 
 import './References.css'
 import { Logo2 } from '../../Logo/Logo2'
+import { Contents } from '../../Content/Contents'
+import { Cards } from '../../Card/Cards'
 
 export const References = () => {
   return (
@@ -11,9 +13,19 @@ export const References = () => {
       <h1>Referencias</h1>
       </section>
       <hr />
-      <p>nopmbre</p>
-      <p>nombre</p>
-      <p>nombre</p>
+      <div className="cards">
+            {
+              Contents.map(Cardss=>(
+                <Cards
+                  key={ Cardss._id}
+                  title={Cardss.title}
+                  cellphone={Cardss.cellphone}
+                  description={Cardss.description}
+                email={Cardss.email}
+                />
+              ))
+            }
+        </div>
     
   </>
   )

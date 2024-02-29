@@ -1,5 +1,6 @@
 .experence{
     display: flex;
+    
 }
 h1{
     font-family: Arial, Helvetica, sans-serif;
@@ -7,7 +8,14 @@ h1{
 }
 .lenguajes{
     display: flex;
-    margin: 20px 0px ;
-    justify-content: space-between;
-    
+    margin: 10px 0px 0px -30px;
+    justify-content: space-around;
+    background:gregreen;
+}
+.js-i{
+    width: 200px;    
+    height: 200px;
+}
+.mongo-i{
+    height: 200px;
 }
