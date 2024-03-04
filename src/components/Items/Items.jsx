@@ -3,4 +3,4 @@ import './Items.css'
 
 
 
-export const Items = ({content}) => <li><a href="">{content}</a></li>
+export const Items = ({content, link}) => <li><a href={link}>{content}</a></li>

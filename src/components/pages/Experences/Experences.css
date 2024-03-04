@@ -19,3 +19,51 @@ h1{
 .mongo-i{
     height: 200px;
 }
+
+@media(max-width:769px){
+    .lenguajes{
+        width: 100%
+    }
+    .java-i{
+        width: 150px;
+        
+    }
+    .js-i{
+        width: 140px;
+        height: 130px;
+    }
+    .python-i{
+        width: 150px;
+    }
+    .mongo-i{
+        width: 150px;
+        height: 130px;
+    }
+   
+}
+@media(max-width:481px){
+    .lenguajes{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        
+    }
+    .java-i{
+        width: 140px;
+        margin: 0px 0px 3px 0px;
+    }
+    .js-i{
+        width: 120px;
+        height: 130px;
+        margin: 5px 0px 3px 0px;
+    }
+    .python-i{
+        width: 150px;
+        margin: 0px 0px 3px 0px;
+    }
+    .mongo-i{
+        width: 150px;
+        height: 130px;
+        margin: 0px 0px 3px 0px;
+    }
+}

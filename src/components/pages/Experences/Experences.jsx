@@ -25,7 +25,7 @@ baseBgColor='#adff2f' />
   </div>
   <div className='js'>
   <img className='js-i' src={js} alt="js" />
-  <ProgressBar  completed={60} 
+  <ProgressBar   completed={60} 
   bgColor='#008000' 
   baseBgColor='#adff2f'/>
   </div>
@@ -36,7 +36,7 @@ bgColor='#008000'
 baseBgColor='#adff2f'/>
   </div>
   <div>
-  <img className='mongo-i' src={mongo} alt="mongo" />
+  <img className='mongo-i'  src={mongo} alt="mongo" />
   <ProgressBar  completed={60}
   bgColor='#008000' 
   baseBgColor='#adff2f'

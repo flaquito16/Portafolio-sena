@@ -1,6 +1,13 @@
 .perfil{
-    
         width: 200px;
+       
         border-radius: 100%;
 
+}
+@media(max-width:769px){
+        .perfil{
+                width: 130px;
+                border-radius: 100%;
+        
+        }
 }

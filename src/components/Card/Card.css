@@ -2,7 +2,7 @@
     width: 300px;
     height: 25vh;
     margin-top: 15px;
-    border: 2px solid;
+    border: 6px solid black;
 }
 .card-img{
     border-radius: 0%;
@@ -31,4 +31,29 @@
 }
 .Description-2{
     color: white;
+}
+
+@media(max-width:769px){
+    .cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .content-2{
+        display: flex;
+        width: 70%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        border: 3px solid black;
+    }
+}
+@media(max-width:481px){
+    .cards{
+        height: 100vh;
+    }
+    .content-2{
+        height: 120vh;
+      
+    }
 }

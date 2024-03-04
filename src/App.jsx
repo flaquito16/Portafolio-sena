@@ -25,11 +25,11 @@ function App() {
       <NavBar>
         <p className='name'>Johan Sebastian Agudelo Cardenas</p>
         <hr className='hr-1'/>
-      <Items content='Inicio' />
-      <Items content='Perfil' />
-      <Items content='Proyectos' />
-      <Items content='References' />
-      <Items content='Experiencia' />
+      <Items content='Inicio' link='#Inicio'/>
+      <Items content='Perfil' link='#Perfil'/>
+      <Items content='Proyectos' link='#Proyectos'/>
+      <Items content='Referencias' link='#Referencias'/>
+      <Items content='Experiencia' link='#Experiencia'/>
       </NavBar>
       <Logo/>
       <Icons className='icons'/>

@@ -13,3 +13,9 @@ img{
    margin: 16px 20px 0px 25px;
    background-color: #c1ff95; 
 }
+
+@media(max-width:769px){
+    .Logo-1{
+        width: 130px;
+    }
+}
